@@ -1,8 +1,9 @@
-<model-viewer src="boat3.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
-    <button class="Hotspot" slot="hotspot-1" data-position="-0.07324029299398482m 0.7149505371336079m 0.008739474911286571m" data-normal="0.9589865419599487m 0.07365865150836902m 0.27371374718429553m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">船帆</div>
-    </button><button class="Hotspot" slot="hotspot-2" data-position="0.13946833415050897m 0.3336228022943393m 0.0984190360737499m" data-normal="0.9454635828387477m 0.3253822281663789m -0.015000637293169257m" data-visibility-attribute="visible">
-        <div class="HotspotAnnotation">就是一艘船</div>
+<model-viewer src="boat1.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate autoplay>
+    <button class="Hotspot" slot="hotspot-1" data-surface="0 0 5539 140 5796 0.932 0.059 0.008" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">動船</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-surface="0 0 1255 5056 5116 0.354 0.146 0.500" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">動ㄘ董ㄘ
+            跳針跳針</div>
     </button>
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
